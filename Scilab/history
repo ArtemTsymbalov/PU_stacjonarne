@@ -1,0 +1,145 @@
+// -- 21/02/2022 12:55:59 -- //
+// -- 13/12/2022 13:24:09 -- //
+cd:
+cd :
+cd:D:Tsymbalov
+cd/D:Tsymbalov
+cd D:
+cd tsymbalov
+held dijar
+diary('Tsymbalov')
+help
+apropos tekst
+clock
+date
+ver
+bench_run()
+// -- 13/12/2022 13:38:53 -- //
+cd D:
+cd Tsymbalov
+cd Scilab
+diary('Tsymbalov')
+2+2
+2-2
+2/7
+2 devide 7
+2 divides 7
+2divides7
+2\7
+2*7
+2^3
+// oke
+1:5
+X(3)
+X=1:5
+X(2)
+X($)
+X($-1)
+X(:,2)
+X(:,3)
+X(3,:)
+X(3,2)
+X=(1:5,1:5)
+2:.5:4
+linspace
+linspace(2,3,11)
+linspace(2,3,12)
+U=[3,4;5,11]
+X=(1:5:1:5)
+X=(1:5;1:5)
+x=3
+3+%i
+x=poly(0<,'x')
+X=[1:5;1:5]
+X(2,3)
+X(:,3)
+X(2,:)
+X($-1,:)
+X(:,$-1)
+X(2:3,1:2)
+X(1:2,2:3)
+./
+X./X
+X.*X
+X*X
+X.\X
+X\X
+X/X
+n!
+n!X
+Xn!
+X!
+a=2
+b=3
+a<b
+0>b
+m=3
+n=3
+n!
+m<=n
+a>0
+A=[1:5;5:10]
+A=[1:5; 5:10]
+A=[1:5; 5:9]
+B=[1,2,3;100,200,3]
+A<>B
+a==b
+a=b
+sin(45)
+sind(45)
+cos(45)
+tan(45)
+sec(45)
+csc(45)
+cotg(45)
+asin(45)
+acos(4)
+acos(45)
+atan(45)
+asec(45)
+acsc(45)
+acot(45)
+h+l
+'h'+'l'
+exep(45)
+exep
+exp(45)
+log(45)
+log(10)
+round(10)
+round(45)
+floor(45)
+ceil(45)
+int(2.5)
+int(2.6)
+int(2.9)
+modulo(2,6)
+modulo(6,6)
+modulo(6,4)
+modulo(6,3)
+factorial(4)
+factors(4)
+ceil(4)
+sqrt(4)
+abs(-5)
+abs(-4)
+clear a
+dosp(x)
+dosp(X)
+dosp(b)
+disp(b)
+disp(''abc'')
+disp(abc)
+disp(bx)
+disp(''bx'')
+find(A<3)
+disp(x)
+clean(x)
+disp(x)
+9!
+format('v',20)
+2345
+format('e',20)
+e
+help('plot')
+savehistory('history')
