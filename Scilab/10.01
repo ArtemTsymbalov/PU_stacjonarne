@@ -1,0 +1,99 @@
+// -- 10/01/2023 14:51:05 -- //
+cd D:\
+cd ruslanGit
+cd cw_10.01_scilab
+// -- 10/01/2023 14:53:25 -- //
+cd D:\
+// -- 10/01/2023 14:54:41 -- //
+cd D:\
+cd ruslanGit
+cd cw_10.01_scilab
+clf();
+x = [0:0.01:2*%pi];
+y = sin(x);
+z = cos(x);
+plot(x,y)
+plot(x, 'r', y)
+plot(x,y)
+clf();
+x = [0:0.01:2*%pi];
+y = sin(x);
+z = cos(x);
+plot(x,y)
+plot(x,y, 'r')
+plot(x,y,x,z, 'b')
+plot(x,y,'LineWidth',3)
+plot(x,z,'r','LineWidth',3)
+plot(x,y,'LineWidth',3)
+plot(x,z,'r','LineWidth',3)
+xgrid
+xlabel('x')
+ylabel('sin(x), cos(x)')
+plot(x,y,'LineWidth',6)
+title('Plot of sin(x) and cos(x)')
+legend('sin(x)', 'cos(x)',3)
+x = [0:0.01:10];
+y = e^(3x);
+y = e^3x
+y = e^3x;
+y = %e^(3x);
+y = %e^3x;
+y = %e;
+z = y^(3x);
+z = y^3x;
+y = sin(x);
+plot(x,y,'LineWidth',3)
+y = %e^(3*x);
+plot(x,y,'LineWidth',3)
+xgrid;
+plot(x,y,'LineWidth',3)
+clf();
+x = [0:0.01:10];
+y = %e^(3*x);
+plot(x,y);
+xgrid;
+xlable('x');
+xlabel('x');
+ylabel('e^3x');
+title('f(x)=e^3x');
+y = x^3 + 4*x^2 + 3*x + 5;
+plot(x,y,'lineWidth',4);
+clf();
+plot(x,y,'LineWidth',6)
+y = x^3 + 4*x^2 + 3*x + 5;
+plot(x,y,'lineWidth',4);
+clf();
+x = [0:0.01:10];
+y = x^3 + 4*x^2 + 3*x + 5;
+plot(x,y,'lineWidth',4);
+xlabel('x');
+ylabel('y);
+ylabel('y');
+title('f(x)= x^3+4*x^2+3*x+5');
+clf();
+y = log2(2*x+4)/log2(5);
+plot(x,y,'lineWidth'4);
+plot(x,y,'lineWidth',4);
+xlabel('x');
+ylabel('y');
+title('f(x)= log_5(2x+4)');
+xgrid;
+clf();
+y = log2(x^3)/log2(10);
+plot(x,y,'lineWidth',4);
+xlabel('x');
+ylabel('y');
+title('f(x)= log(x^3)');
+xgrid;
+clf();
+y = log2(-3*x-4)/log2(%e);
+plot(x,y,'lineWidth',4,'r');
+plot(x,y,'r','lineWidth',4);
+xlabel('x');
+ylabel('y');
+title('f(x)= ln(−3������ − 4)');
+title('f(x) = ');
+title('f(x) = ln(-3x-4)');
+xgrid;
+legend('ln(-3x-4)',4);
+savehistory('history.txt');
