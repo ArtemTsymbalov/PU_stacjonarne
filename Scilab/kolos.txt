@@ -1,0 +1,29 @@
+1) a)asin(-0.5)*180/%pi 
+     -30.000000
+  b) a=[7,-2,3;1,2,4;-2,5,8;6,-1,0]
+     a(:,2:3)
+  c) n=1:40
+     b = sum((sqrt(n)+6)./(n.^(2)+2*n))   5.5858421
+
+2) x = [1:0.1:7];
+y=log2(x)
+z=(x.^(2)+5)./(2*x)
+plot(x,y, 'LineWidth', 3)
+plot(x,z,'r', 'LineWidth', 3) 
+xgrid     
+xlabel('x')
+ylabel('log2(x),(x.^(2)+5)./(2*x)')
+title('Plot fo log2(x) and (x.^(2)+5)./(2*x)')
+legend('log2(x)','(x.^(2)+5)./(2*x)',3)
+
+3) x=[-6:0.5:6]
+g=-x.^2+4*x+2
+plot(x,g,'r*')
+xgrid     
+xlabel('X')
+ylabel('-x^2 + 4x + 2')
+title('Wykres liniowy funkcji kwadratowej')
+legend('-x^2 + 4x + 2',4)
+
+
+
